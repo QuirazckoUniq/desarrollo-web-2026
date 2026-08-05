@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda de Contactos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+
+<header>
+    <h1>Agenda de Contactos</h1>
+</header>
+
+<section class="contenedor">
+
+    <form id="formContacto">
+
+        <input type="hidden" id="indice">
+
+        <label>Nombre</label>
+        <input type="text" id="nombre">
+
+        <label>Teléfono</label>
+        <input type="text" id="telefono">
+
+        <label>Correo</label>
+        <input type="email" id="correo">
+
+        <label>Ciudad</label>
+
+        <select id="ciudad">
+            <option value="">Seleccione</option>
+            <option>Querétaro</option>
+            <option>CDMX</option>
+            <option>Guadalajara</option>
+            <option>Monterrey</option>
+            <option>Puebla</option>
+            <option>San Luis Potosí</option>
+            <option>Zacatecas</option>
+            <option>Aguas Calientes</option>
+            <option>Oaxaca</option>
+            <option>Sinaloa</option>
+            <option>Durango</option>
+            <option>Hidalgo</option>
+        </select>
+
+        <button type="submit">Guardar</button>
+
+        <div id="mensaje"></div>
+
+    </form>
+
+</section>
+
+<section class="herramientas">
+
+<input type="text" id="buscar" placeholder="Buscar por nombre">
+
+<select id="filtroCiudad">
+<option value="">Ciudades</option>
+<option>Querétaro</option>
+<option>CDMX</option>
+<option>Guadalajara</option>
+<option>Monterrey</option>
+<option>Puebla</option>
+<option>San Luis Potosí</option>
+<option>Zacatecas</option>
+<option>Aguas Calientes</option>
+<option>Oaxaca</option>
+<option>Sinaloa</option>
+<option>Durango</option>
+<option>Hidalgo</option>
+</select>
+
+<button id="ordenar">Ordenar A-Z</button>
+
+</section>
+
+<h3 id="total"></h3>
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Nombre</th>
+<th>Teléfono</th>
+<th>Correo</th>
+<th>Ciudad</th>
+<th>Acciones</th>
+
+</tr>
+
+</thead>
+
+<tbody id="tabla">
+
+</tbody>
+
+</table>
+
+<footer>
+
+<p>
+
+Nombre: José Antonio Martínez Martínez <br>
+Matrícula: 201194541
+
+</p>
+
+</footer>
+
+<script src="agenda.js"></script>
+
+</body>
+</html>
