@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Reporte de Resultados del Examen</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body{
+        background:#f4f6f9;
+        padding:40px;
+        color:#333;
+    }
+
+    .contenedor{
+        max-width:1000px;
+        margin:auto;
+        background:white;
+        border-radius:15px;
+        overflow:hidden;
+        box-shadow:0 5px 20px rgba(0,0,0,.15);
+    }
+
+    .nombre{
+        background:#1f2937;
+        color:white;
+        text-align:center;
+        padding:25px;
+        font-size:30px;
+        font-weight:bold;
+        letter-spacing:1px;
+    }
+
+    .encabezado{
+        text-align:center;
+        padding:30px;
+        border-bottom:3px solid #e5e7eb;
+    }
+
+    .encabezado h1{
+        color:#1f2937;
+        margin-bottom:10px;
+    }
+
+    .fecha{
+        color:#6b7280;
+        font-size:18px;
+    }
+
+    .pregunta{
+        margin:25px;
+        padding:25px;
+        border-left:6px solid #2563eb;
+        background:#f9fafb;
+        border-radius:10px;
+    }
+
+    .pregunta h2{
+        color:#1f2937;
+        margin-bottom:15px;
+        font-size:22px;
+    }
+
+    ul{
+        margin-left:25px;
+        margin-bottom:15px;
+    }
+
+    li{
+        margin:8px 0;
+    }
+
+    .incorrecta{
+        color:#dc2626;
+        font-weight:bold;
+        margin:10px 0;
+    }
+
+    .correcta{
+        color:#16a34a;
+        font-weight:bold;
+        margin:10px 0;
+    }
+
+    .explicacion{
+        background:#eef2ff;
+        border-left:4px solid #4f46e5;
+        padding:12px;
+        margin-top:15px;
+        border-radius:5px;
+    }
+
+    .footer{
+        text-align:center;
+        padding:20px;
+        color:#6b7280;
+        border-top:1px solid #ddd;
+    }
+</style>
+</head>
+
+<body>
+
+<div class="contenedor">
+
+    <div class="nombre">
+        JOSE ANTONIO MARTINEZ MARTINEZ
+    </div>
+
+    <div class="encabezado">
+        <h1>Reporte de Resultados del Examen de HTML y CSS</h1>
+        <p class="fecha">19 de Junio de 2026</p>
+    </div>
+
+    <!-- Pregunta 1 -->
+    <div class="pregunta">
+        <h2>Pregunta 1. ¿Cuál es la etiqueta correcta para mostrar un encabezado principal?</h2>
+
+        <ul>
+            <li>head</li>
+            <li>h1</li>
+            <li>header</li>
+            <li>title</li>
+        </ul>
+
+        <p class="incorrecta">Respuesta proporcionada: title</p>
+        <p class="correcta">Respuesta correcta: h1</p>
+
+        <div class="explicacion">
+            <strong>¿Por qué me equivoqué?</strong><br>
+            La etiqueta &lt;title&gt; define el título de la página que aparece en la pestaña del navegador. Para mostrar un encabezado principal dentro del contenido de la página se utiliza la etiqueta &lt;h1&gt;.
+        </div>
+    </div>
+
+    <!-- Pregunta 2 -->
+    <div class="pregunta">
+        <h2>Pregunta 2. ¿Cuál de las siguientes etiquetas es semántica?</h2>
+
+        <ul>
+            <li>div</li>
+            <li>span</li>
+            <li>section</li>
+            <li>font</li>
+        </ul>
+
+        <p class="incorrecta">Respuesta proporcionada: div</p>
+        <p class="correcta">Respuesta correcta: section</p>
+
+        <div class="explicacion">
+            <strong>¿Por qué me equivoqué?</strong><br>
+            La etiqueta &lt;section&gt; es semántica porque describe una sección específica del contenido. La etiqueta &lt;div&gt; es un contenedor genérico que no aporta significado al contenido.
+        </div>
+    </div>
+
+    <!-- Pregunta 3 -->
+    <div class="pregunta">
+        <h2>Pregunta 3. ¿Cuál es la función principal de CSS?</h2>
+
+        <ul>
+            <li>Crear base de datos</li>
+            <li>Dar estilo y presentación a las páginas web</li>
+            <li>Ejecutar código del servidor</li>
+            <li>Almacenar información</li>
+        </ul>
+
+        <p class="incorrecta">Respuesta proporcionada: No contestada</p>
+        <p class="correcta">Respuesta correcta: Dar estilo y presentación a las páginas web</p>
+
+        <div class="explicacion">
+            <strong>¿Por qué me equivoqué?</strong><br>
+            La pregunta no fue respondida. CSS se utiliza para definir el diseño, colores, tipografías y presentación visual de las páginas web.
+        </div>
+    </div>
+
+    <!-- Pregunta 4 -->
+    <div class="pregunta">
+        <h2>Pregunta 4. ¿Cuál es la sintaxis correcta de una regla CSS?</h2>
+
+        <ul>
+            <li>selector{propiedad: valor}</li>
+            <li>selector = propiedad : valor</li>
+            <li>selector (propiedad=valor)</li>
+            <li>selector: propiedad = valor</li>
+        </ul>
+
+        <p class="incorrecta">Respuesta proporcionada: No contestada</p>
+        <p class="correcta">Respuesta correcta: selector{propiedad: valor}</p>
+
+        <div class="explicacion">
+            <strong>¿Por qué me equivoqué?</strong><br>
+            La pregunta no fue respondida. Las reglas CSS siempre utilizan la estructura selector{propiedad: valor}.
+        </div>
+    </div>
+
+    <!-- Pregunta 5 -->
+    <div class="pregunta">
+        <h2>Pregunta 5. ¿Qué propiedad CSS cambia el color del texto?</h2>
+
+        <ul>
+            <li>background-color</li>
+            <li>text-color</li>
+            <li>color</li>
+            <li>font-color</li>
+        </ul>
+
+        <p class="incorrecta">Respuesta proporcionada: No contestada</p>
+        <p class="correcta">Respuesta correcta: color</p>
+
+        <div class="explicacion">
+            <strong>¿Por qué me equivoqué?</strong><br>
+            La pregunta no fue respondida. La propiedad CSS correcta para modificar el color del texto es <strong>color</strong>.
+        </div>
+    </div>
+
+    <!-- Pregunta 6 -->
+    <div class="pregunta">
+        <h2>Pregunta 6. ¿Qué propiedad controla el espacio interno entre el contenido y el borde?</h2>
+
+        <ul>
+            <li>margin</li>
+            <li>border</li>
+            <li>spacing</li>
+            <li>padding</li>
+        </ul>
+
+        <p class="incorrecta">Respuesta proporcionada: No contestada</p>
+        <p class="correcta">Respuesta correcta: padding</p>
+
+        <div class="explicacion">
+            <strong>¿Por qué me equivoqué?</strong><br>
+            La pregunta no fue respondida. La propiedad <strong>padding</strong> controla el espacio interno entre el contenido y el borde de un elemento.
+        </div>
+    </div>
+
+    <div class="footer">
+        Reporte generado para evaluación de conocimientos en HTML y CSS
+    </div>
+
+</div>
+
+</body>
+</html>
